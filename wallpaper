@@ -1,1 +1,17 @@
 
+
+nordbuilds/dwm/status.sh &
+
+picom --config /etc/xdg/picom.conf &
+
+feh --bg-scale Pictures/a_blue_and_pink_swirls_on_a_black_background.png
+
+VBoxClient --clipboard &
+VBoxClient --draganddrop &
+VBoxClient --display &
+VBoxClient --seamless &
+
+
+exec dwm
+
+
